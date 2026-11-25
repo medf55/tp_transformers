@@ -1,0 +1,23 @@
+# Environnement virtuel & caches Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Données volumineuses téléchargées ou régénérées
+data/household_power_consumption.txt
+data/household_power_consumption.zip
+data/household_power_consumption_synthetic_fallback.txt
+
+# Checkpoints binaires volumineux
+artifacts/*.pt
+
+# Notes locales non versionnées
+RECAP_TRAVAIL.md
+
+infos2.md
